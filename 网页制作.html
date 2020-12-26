@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>电商网页</title>
+		<style>
+			body{
+			margin: 0;
+			padding: 0;
+			}
+			#one{
+				width:100%;
+				height: 50px;
+				background-color: #330066;
+				border: 1px solid #000000;
+				margin: 0;
+				padding: 0;
+			}
+			li{
+				list-style: none;
+			}
+			#onea{
+				background-image:url(img/电话.svg);
+				background-position: center;
+				background-size:15px;
+				float:left;
+				background-repeat: no-repeat;
+				text-indent: 200px;
+				list-style: none;
+				color: white;
+			}
+			#oneb{
+				background-image:url(img/邮箱.svg);
+				background-position: 35px;
+				background-size:15px;
+				float:left;
+				background-repeat: no-repeat;
+				text-indent:67px;
+				list-style: none;
+				color: white;
+			}
+			#one1{
+				color: #269ABC;
+				text-decoration: none;
+			}
+			#onec{
+				float:left;
+				text-indent:55px;
+				color: white;
+			}
+			#oned{
+				text-indent:200px;
+				list-style: none;
+				float: left;
+				color: white;
+			}
+			#onee{
+				list-style: none;
+				float: left;
+				text-indent:10px;
+				color: white;
+			}
+			#onef{
+				float: left;
+				text-indent:10px;
+				list-style: none;
+			}
+			#one2{
+				color: white;
+				text-decoration: none;
+			}
+			#one2:hover{
+				color: #16699C;
+			}
+			#two{
+				padding: 0;
+				margin-top: 0;
+				width: 100%;
+				height: 100px;
+				background-color:white;
+				color: #000000;
+				float: left;
+				}
+			#twoa{
+					float:left;
+					text-indent:50px;
+					text-align:center;
+					margin-left:30px;
+					margin-top: 8px;
+					font-size: 30px;
+					font-family:"arial black";
+					text-shadow: 1px 1px #00478F;
+				}
+			.twob{
+					float:left;
+					text-indent:50px;
+					text-align: center;
+					margin-left:5px;
+					margin-top:17px;
+					width: auto;
+					font-family: "arial, helvetica, sans-serif";
+				}
+			#two1{
+					color: #000000;
+					text-decoration:none;
+				}
+			#two1:hover{
+					color: #16699C;
+				}
+			#twoc{
+					float:left;
+					background-image: url(img/搜索.svg);
+					background-repeat:no-repeat;
+					background-size:25px 25px;
+					margin-left:300px;
+					margin-top:10px;
+					text-indent:50px;
+					font-size:20px;
+					color:white;
+					width: auto;
+				}
+			#twod{
+					float:left;
+					background-image: url(img/桃心.svg);
+					background-repeat:no-repeat;
+					background-size:25px 25px;
+					margin-right:30px;
+					margin-top:10px;
+					text-indent:50px;
+					font-size:20px;
+					color:black;
+				}
+			#twoe{
+					float: left;
+					background-image:url(img/包.svg);
+					background-repeat:no-repeat;
+					background-size:25px 25px;
+					margin-right:50px;
+					margin-top:10px;
+					text-indent:50px;
+					font-size:20px;
+					color:black;
+				}
+			#three{
+				margin: 0;
+				padding: 0;
+				width: 100%;
+				height: 50px;
+				background-color:black;
+				float:left;
+			}
+			.three1:hover{
+				border-top: 3px solid #16699C;
+			}
+			.three1{
+				float: left;
+				margin-left:50px;
+				margin-top: 1px;
+				color:white;
+			}
+			#four{
+				float: left;
+				width:100%;
+				height: 600px;
+				background-image: url(img/blog-1.jpg);
+				background-repeat: no-repeat;
+				background-size:100% 543px;
+			}
+		#five{
+			width:100%;
+			height:500px;
+			background-color: white;
+			float:left;
+		}
+		#five1{
+			width: 360px;
+			height: 358px;
+			float: left;
+			background-image:url(img/cat-1.jpg);
+			background-size:360px 358px;
+			position:absolute;
+			top:900px;
+			left:200px
+		}
+		#five2{
+			width: 360px;
+			height: 358px;
+			float: left;
+			background-image:url(img/cat-2.jpg);
+			background-size:360px 358px;
+			position:absolute;
+			top:900px;
+			left:600px
+		}
+		#five3{
+			width: 360px;
+			height: 358px;
+			float: left;
+			background-image:url(img/cat-3.jpg);
+			background-size:360px 358px;
+			position:absolute;
+			top:900px;
+			left:1000px;
+		}
+		#six{
+			width: 1300px;
+			height: 90px;
+			position:absolute;
+			top:1300px;
+			left:130px;
+			float: left;
+			background-color: white;
+			border-top: 2px dotted #000000;
+		}
+		.six1{
+			float: left;
+			margin-left:250px;
+			margin-top: 30px;
+		}
+		#six li:hover{
+			border-bottom: 2px solid #16699C;
+		}
+		#seven{
+			width:100%;
+			height:68d0px;
+			background-color:red;
+			float: left;			
+			margin: 91px;
+			margin-left: 0;
+			}
+		#seven1{
+			width: 262px;
+			height: 300px;
+			float: left;
+			background-image: url(img/p-1.jpg);
+			background-size: 262px 262px;
+			background-repeat: no-repeat;
+			position:absolute;
+			top:1392px;
+			left:100px;
+			
+		}
+		#seven11{
+			float: left;
+			position:absolute;
+			top:280px;
+			left:50px;
+			
+		}
+		#seven11:hover{
+			color: #16699C;
+			cursor: pointer;
+		}
+		#seven2{
+			width: 262px;
+			height: 300px;
+			float: left;
+			background-image: url(img/p-2.jpg);
+			background-size: 262px 262px;
+			background-repeat: no-repeat;
+			position:absolute;
+			top:1392px;
+			left:460px;
+			
+		}
+		#seven21{
+			float: left;
+			position:absolute;
+			top:280px;
+			left:50px;
+			
+		}
+		#seven21:hover{
+			color: #16699C;
+			cursor: pointer;
+		}
+		#seven3{
+			width: 262px;
+			height: 300px;
+			float: left;
+			background-image: url(img/p-3.jpg);
+			background-size: 262px 262px;
+			background-repeat: no-repeat;
+			position:absolute;
+			top:1392px;
+			left:830px;
+			
+		}
+		#seven31{
+			float: left;
+			position:absolute;
+			top:280px;
+			left:50px;
+			
+		}
+		#seven31:hover{
+			color: #16699C;
+			cursor: pointer;
+		}
+		#seven4{
+			width: 262px;
+			height: 300px;
+			float: left;
+			background-image: url(img/p-4.jpg);
+			background-size: 262px 262px;
+			background-repeat: no-repeat;
+			position:absolute;
+			top:1392px;
+			left:1195px;
+			
+		}
+		#seven41{
+			float: left;
+			position:absolute;
+			top:280px;
+			left:50px;
+			
+		}
+		#seven41:hover{
+			color: #16699C;
+			cursor: pointer;
+		}
+		#seven5{
+			width: 262px;
+			height: 300px;
+			float: left;
+			background-image: url(img/p-5.jpg);
+			background-size: 262px 262px;
+			background-repeat: no-repeat;
+			position:absolute;
+			top:1750px;
+			left:100px;
+			
+		}
+		#seven51{
+			float: left;
+			position:absolute;
+			top:280px;
+			left:50px;
+			
+		}
+		#seven51:hover{
+			color: #16699C;
+			cursor: pointer;
+		}
+		#seven6{
+			width: 262px;
+			height: 300px;
+			float: left;
+			background-image: url(img/p-6.jpg);
+			background-size: 262px 262px;
+			background-repeat: no-repeat;
+			position:absolute;
+			top:1750px;
+			left:460px;
+			
+		}
+		#seven61{
+			float: left;
+			position:absolute;
+			top:280px;
+			left:50px;
+			
+		}
+		#seven61:hover{
+			color: #16699C;
+			cursor: pointer;
+		}		
+		#seven7{
+			width: 262px;
+			height: 300px;
+			float: left;
+			background-image: url(img/p-7.jpg);
+			background-size: 262px 262px;
+			background-repeat: no-repeat;
+			position:absolute;
+			top:1750px;
+			left:830px;
+			
+		}
+		#seven71{
+			float: left;
+			position:absolute;
+			top:280px;
+			left:50px;
+			
+		}
+		#seven71:hover{
+			color: #16699C;
+			cursor: pointer;
+		}
+		#seven8{
+			width: 262px;
+			height: 300px;
+			float: left;
+			background-image: url(img/p-8.jpg);
+			background-size: 262px 262px;
+			background-repeat: no-repeat;
+			position:absolute;
+			top:1750px;
+			left:1195px;
+			
+		}
+		#seven81{
+			float: left;
+			position:absolute;
+			top:280px;
+			left:50px;
+			
+		}
+		#seven81:hover{
+			color: #16699C;
+			cursor: pointer;
+		}
+		#eight{
+			width: 100%;
+			height: 490px;
+			background-image:url(img/bg-offers.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 390px;
+			float: left;
+			position:absolute;
+			top:2170px;
+			left:0px;
+		}
+		#nine{
+			width: 1140px;
+			height: 243PX;
+			float: left;
+			background-color:white;
+			position:absolute;
+			top:2640px;
+			left:200px;
+			border-top: 2px dotted #000000;
+			border-bottom: 2px dotted #000000;
+		}
+		#nine1{
+			width: 1140px;
+			height:35px;
+			float: left;
+			background-color:white;
+			position:absolute;
+			top:40px;
+			left:00px;
+			text-indent:535px;
+			font-size: 20px;
+		}
+		#nine1 a:hover{
+			color: #16699C;
+			border-bottom: 3px solid #16699C;
+		}
+		#nine2{
+			width:228px;
+			height:100px;
+			float: left;
+			background-image: url(img/brand-1.png);
+			background-size: 228px 100px;
+			background-repeat: no-repeat;
+			position:absolute;
+			top:110px;
+			left:00px;
+		}
+		#nine3{
+			width:228px;
+			height:100px;
+			float: left;
+			background-image: url(img/brand-2.png);
+			background-size: 228px 100px;
+			background-repeat: no-repeat;
+			position:absolute;
+			top:110px;
+			left:228px;
+		}
+		#nine4{
+			width:228px;
+			height:100px;
+			float: left;
+			background-image: url(img/brand-3.png);
+			background-size: 228px 100px;
+			background-repeat: no-repeat;
+			position:absolute;
+			top:110px;
+			left:456px;
+		}
+		#nine5{
+			width:228px;
+			height:100px;
+			float: left;
+			background-image: url(img/brand-4.png);
+			background-size: 228px 100px;
+			background-repeat: no-repeat;
+			position:absolute;
+			top:110px;
+			left:684px;
+		}
+		#nine6{
+			width:228px;
+			height:100px;
+			float: left;
+			background-image: url(img/brand-5.png);
+			background-size: 228px 100px;
+			background-repeat: no-repeat;
+			position:absolute;
+			top:110px;
+			left:912px;
+		}
+		#ten{
+			width: 100%;
+			height: 500px;
+			background-color:white;
+			float: left;
+			position:absolute;
+			top:2900px;
+			left:0px;
+		}
+		#ten1{
+			width: 100%;
+			height:40px;
+			background-color: white;
+			float: left;
+			position:absolute;
+			top:50px;
+			left:0px;
+			text-indent: 700px;
+			font-size: 20px;
+		}
+		#ten1 a{
+			border-bottom: 2px solid #16699C;
+		}
+		#ten2{
+			width: 360px;
+			height: 310px;
+			background-image: url(img/rec-1.jpg);
+			background-repeat: no-repeat;
+			background-size: 360px 240px;
+			position:absolute;
+			top:150px;
+			left:200px;
+		}
+		#ten21{
+			float: left;
+			position:absolute;
+			top:255px;
+			left:0px;
+		}
+		#ten21:hover{
+			color: #16699C;
+			text-decoration:underline;
+		}
+		#ten3{
+			width: 360px;
+			height: 310px;
+			background-image: url(img/rec-2.jpg);
+			background-repeat: no-repeat;
+			background-size: 360px 240px;
+			position:absolute;
+			top:150px;
+			left:600px;
+		}
+		#ten31{
+			float: left;
+			position:absolute;
+			top:255px;
+			left:30px;
+		}
+		#ten31:hover{
+			color: #16699C;
+			text-decoration:underline;
+		}
+		#ten4{
+			width: 360px;
+			height: 310px;
+			background-image: url(img/rec-3.jpg);
+			background-repeat: no-repeat;
+			background-size: 360px 240px;
+			position:absolute;
+			top:150px;
+			left:1000px;
+		}
+		#ten41{
+			float: left;
+			position:absolute;
+			top:255px;
+			left:30px;
+			
+		}
+		#ten41:hover{
+			color: #16699C;
+			text-decoration:underline;
+			
+		}
+		#eleven{
+			float: left;
+			background-color: black;
+			width: 100%;
+			height: 320px;
+			position:absolute;
+			top:3400px;
+			left:0px;
+		}
+		#eleven1{
+			float: left;
+			background-color: black;
+			width: 300px;
+			height: 320px;
+			position:absolute;
+			top:0px;
+			left:200px;
+			color: white;
+		}
+		#eleven2{
+			float: left;
+			background-color:black;
+			width: 200px;
+			height: 320px;
+			position:absolute;
+			top:0px;
+			left:510px;
+		}
+		#eleven3{
+			float: left;
+			background-color: black;
+			width: 250px;
+			height: 320px;
+			position:absolute;
+			top:0px;
+			left:740px;
+		}
+		#eleven4{
+			float: left;
+			background-color: black;
+			width: 200px;
+			height: 320px;
+			position:absolute;
+			top:0px;
+			left:1010px;
+		}
+		#eleven5{
+			float: left;
+			background-color:black;
+			width: 200px;
+			height: 320px;
+			position:absolute;
+			top:0px;
+			left:1210px;
+		}
+		.a1{
+			font-size: 15px;
+			line-height: 200%;
+		}
+		#eleven11{
+			font-size: 35px;
+			font-family: "arial black";
+			text-shadow: 2px 0.5px whitesmoke;
+		}
+		.a2{
+			text-indent: 24px;
+			font-size: 15px;
+			line-height: 200%;
+			color: white;
+			font-family: "arial black";
+		}
+		#eleven21{
+			color: white;
+			text-indent: 24px;
+		}
+		.a3{
+			color: white;
+			text-indent: 24px;
+			margin-top: 50px;
+			font-size: 15px;
+			line-height: 2%;
+			font-family: "arial black";
+		}
+		.a4{
+			color: white;
+			text-indent: 24px;
+			font-size: 15px;
+			line-height: 230%;
+			font-family: "arial black";
+		}
+		.a5{
+			color: white;
+			font-size: 15px;
+			line-height: 170%;
+			font-family: "arial black";
+		}
+		#eleven41{
+			color: white;
+			text-indent: 2px;
+		}
+		#eleven51{
+			color: white;
+			text-indent: 2px;
+		}
+	</style>
+	</head>
+
+	<body>
+		<div id="one">
+			<ul>
+				<li id="onea">(+800) 123 456 7890</li>
+				<li id="oneb">info@website.com</li>
+				<li id="onec"><search>Free Shipping <a id="one1" href="">on All Orders Over</a> $75!</search></li>
+				<li id="oned"><a id="one2" href="">Track Order</a></li>
+				<li id="onee"><a id="one2" href="">Register</a></li>
+				<li id="onef"><a id="one2" href="">Login</a></li>
+			</ul>
+		</div>
+		<div id="two">
+			<ul>
+				<li id="twoa">bclicvc</li>
+				<li class="twob"><a id="two1" href="">HOME</a></li>
+				<li class="twob"><a id="two1" href="">BLOG</a></li>
+				<li class="twob"><a id="two1" href="">BLOG POST</a></li>
+				<li class="twob"><a id="two1" href="">CONTACT</a></li>
+				<li class="twob"><a id="two1" href="">BUY PRO VERSION</a></li>
+				<li id="twoc">0</li>
+				<li id="twod">2</li>
+				<li id="twoe">2</li>
+			</ul>
+		</div>
+		<div id="three">
+			<ul>
+				<li class="three1">ELECTRONICS</li>
+				<li class="three1">MEN</li>
+				<li class="three1">WOMEN</li>
+				<li class="three1">BABY& KIDS</li>
+				<li class="three1">BKOOKS& MEDIA</li>
+				<li class="three1">BOOKS & KITCHEN</li>
+				<li class="three1">MORE&nbsp;STORES</li>
+				<li class="three1">OFFERS&nbsp;ZONE</li>
+			</ul>
+		</div>
+		<div id="four"></div>
+		<div id="five">
+			<div id="five1"></div>
+			<div id="five2"></div>
+			<div id="five3"></div>
+		</div>
+		<div id="six">
+			<li class="six1">FEATURED</li>
+			<li class="six1">NEW ARRIVALS</li>
+			<li class="six1">BEST SELLER</li>
+		</div>
+		<div id="seven">
+			<div id="seven1">
+				<div id="seven11"><a>Adidas Striped Men's Round Neck T-Shirt</a>
+				</div>
+			</div>
+			<div id="seven2">
+				<div id="seven21"><a>WOMEN'S JEANS</a>
+				</div>
+			</div>
+			<div id="seven3">
+				<div id="seven31"><a>RUNNING SHOES</a>
+				</div>
+			</div>
+			<div id="seven4">
+				<div id="seven41"><a>  MEN'S JEANS</a>
+				</div>
+			</div>
+			<div id="seven5">
+				<div id="seven51"><a> Striped Men's Round Neck T-Shirt</a>
+				</div>
+			</div>
+			<div id="seven6">
+				<div id="seven61"><a>WOMEN'S ROUND NECK T-SHIRT</a>
+				</div>
+			</div><div id="seven7">
+				<div id="seven71"><a>MEN'S JEANS</a>
+				</div>
+			</div><div id="seven8">
+				<div id="seven81"><a>HEELS</a>
+				</div>
+			</div>
+		</div>
+		<div id="eight"></div>
+		<div id="nine">
+			<div id="nine1"><a>BRANDS</a></div>
+			<div id="nine2"></div>
+			<div id="nine3"></div>
+			<div id="nine4"></div>
+			<div id="nine5"></div>
+			<div id="nine6"></div>
+		</div>
+		<div id="ten">
+			<div id="ten1"><a>THE BLOG</a></div>
+			<div id="ten2">
+				<div id="ten21"><a>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque !</a></div>
+			</div>
+			<div id="ten3">
+				<div id="ten31"><a>Voluptatem accusantium doloremque</a></div>
+			</div>
+			<div id="ten4">
+				<div id="ten41"><a>Voluptatem accusantium doloremque</a></div>
+				</div>
+			</div>
+		</div>
+		<div id="eleven">
+			<div id="eleven1">
+				<ul>
+					<li class="a1">WELCOME TO</li>
+					<li id="eleven11">BALICVC</li>
+					<li class="a1">Believe isCommerce WordPress theme. It</li>
+					<li class="a1">has</li>
+					<li class="a1">everything you need to start selling today!</li>
+					<li class="a1">Get this theme on ThemeForest!</li>
+				</ul>
+			</div>
+			<div id="eleven2">
+				<li id="eleven21">QUICK LINKS</li>
+				<li class="a2">HOME</li>
+				<li class="a2">ABOUT US</li>
+				<li class="a2">CONTACT US</li>
+				<li class="a2">DEALS</li>
+				<li class="a2">BLOG</li>
+				<li class="a2">HELP</li>				
+			</div>
+			<div id="eleven3">
+				<li class="a3">TEARMS & CONDITION</li>
+				<li class="a3">BLOG</li>
+				<li class="a3">PRIVACY POLICY</li>
+				<li class="a3">LEGAL DESCLAIMER</li>
+			</div>
+			<div id="eleven4">
+				<li id="eleven41">MY ACCOUNT</li>
+				<li class="a4">MY ACCOUNT</li>
+				<li class="a4">PERSONAL INFORMATION</li>
+				<li class="a4">ADDRESSES</li>
+				<li class="a4">ORDERS</li>
+				<li class="a4">WISHLIST</li>
+				<li class="a4">TRACK ORDER</li>
+				
+			</div>
+			<div id="eleven5">
+				<li id="eleven51">SUBSCRIBE FOR OFFERS & UPDATES</li>
+				<li class="a5">Enter your email and we'll send you a</li>
+				<li class="a5">coupon with 10% off your next order. Add</li>
+				<li class="a5">any text here</li>
+			</div>
+		</div>
+	</body>
+</html>

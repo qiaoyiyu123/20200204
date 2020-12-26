@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>qq界面2动态</title>
+		<style>
+			 *{
+				 margin:0;
+				 padding:0}
+			#all{
+				margin: 0;
+				padding: 0;
+				width: 100%;
+				height: 100%;
+				position: fixed;
+				display: flex;
+				flex-direction: column;
+				
+			}
+			#one{
+				margin:0;
+				padding:0;
+				width: 100%;
+				height: 150px;
+				display: flex;
+				background-color: burlywood;
+			}
+			#one span{
+				font-size: 50px;
+				margin-left:290px;
+				color: white;
+			}
+			#one #oneleft{
+				width:80%;
+				height: 150px;
+				display: flex;
+				align-items: center;
+			}
+			#one #oneleft img{
+				margin-left: 20px;
+				width: 130px;
+				height: 130px;
+			}
+			#one #oneright{
+				width: 20%;
+				display: flex;
+				align-items: center;
+				justify-content: space-around;
+			}
+			#oneright img{
+				width: 100px;
+				height: 100px;
+			}
+			#two{
+				width: 100%;
+				flex: 1;
+				background-color: #EEEEEE;
+			}
+			#two #two1{
+				width: 100%;
+				height: 260px;
+				background-color: white;
+			}
+			#two #two2{
+				width: 100%;
+				height:700px;
+				background-color: white;
+				margin-top: 30px;
+				position: fixed;
+				display: flex;
+				flex-direction: column;
+			}
+			#two #two1 #two11{
+				width: 80%;
+				height: 100px;
+				background-color: #000000;
+				margin-left: 100px;
+				background-color: gainsboro;
+				border-radius: 45px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-size: 50px;
+				color: #52585A;
+			}
+			
+			#two #two1 #two12{
+				font-size: 60px;
+				margin-top: 65px;
+				margin-left: 25px;
+			}
+			#two #two1 #two12 a{
+				margin-left: 630px;
+			}
+			#two #two2 #two21 li{
+				float: left;
+				font-size: 50px;
+				list-style: none;
+				margin: 47px;
+				
+			}
+
+			#two #two2 img{
+				width: 30px;
+				height: 30px;
+				margin-left: 20px;
+			}
+			#two #two2 div{
+				flex: 0.2;
+				
+			}
+			#two #two2 span{
+				font-size: 60px;
+			}
+			#two #two2 a{
+				font-size: 30px;
+				color: gray;
+				margin-left: 570px;
+			}
+			#two #two2 #two22 a{
+				margin-left: 600px;
+			}
+				
+			#two #two2 #two23 a{
+				margin-left: 720px;
+			}
+			#two #two2 #two25 a{
+				margin-left: 700px;
+			}
+			#two #two2 #two26 a{
+				margin-left: 700px;
+			}
+			#three{
+				width: 100%;
+				height: 150px;
+				display: flex;
+			}
+			#three1{
+				width:30%;
+				display: flex;
+				justify-content: center;
+				flex-direction: column;
+				align-items: center;
+			}
+			#three span{
+				font-size: 30px;
+				color: #777777;
+				
+			}
+			#three2{
+				width:40%;
+				display: flex;
+				justify-content: center;
+				flex-direction: column;
+				align-items: center;
+			}
+			#three3{
+				width:30%;
+				align-items: center;
+				display: flex;
+				justify-content: center;
+				flex-direction: column;
+				align-items: center;
+			}
+			#three img{
+				width: 100px;
+				height: 85px;
+				align-items: center;
+			}
+		</style>
+	</head>
+	<body>
+	<div id="all">
+		<div id="one">
+			<div id="oneleft">
+				<a href="设置.html"><img src="img/国旗-圆形.svg"/></a>
+				<span>联系人</span>
+			</div>
+			<div id="oneright">
+				<img src="img/联系人.svg" />
+			</div>
+		</div>
+		<div id="two">
+			<div id="two1">
+				<div id="two11">搜索</div>
+				<div id="two12">
+					<span>新朋友</span>
+					<a>&gt;</a>
+				</div>
+			</div>
+			<div id="two2">
+				<div id="two21">
+					<ul>
+						<li>好友</li>
+						<li>分组</li>
+						<li>群聊</li>
+						<li>设备</li>
+						<li>通讯</li>
+					</ul>
+				</div>
+				<div id="two22">
+					<img src="img/播放.svg" />
+					<span>特别关心</span>
+					<a>1/1</a>
+				</div>
+				
+				<div id="two23">
+					<img src="img/播放.svg" />
+					<span>家人</span>
+					<a>2/5</a>
+				</div>
+				<div id="two24">
+					<img src="img/播放.svg" />
+					<span>大学同学</span>
+					<a>19/44</a>
+				</div>
+				<div id="two25">
+					<img src="img/播放.svg" />
+					<span>朋友</span>
+					<a>22/33</a>
+				</div>
+				<div id="two26">
+					<img src="img/播放.svg" />
+					<span>老师</span>
+					<a>7/10</a>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<div id="three">
+			<div id="three1">
+				<a href="主界面.html"><img src="img/消息%20(1).svg" /></a>
+				<span>消息</span>
+			</div>
+			<div id="three2">
+				<a href="联系人.html"><img src="img/联系人.svg" /></a>
+				<span>联系人</span>
+			</div>
+			<div id="three3">
+				<a href="动态.html"><img src="img/动态.svg" /></a>
+				<span>动态</span>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>

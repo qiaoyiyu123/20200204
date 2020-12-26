@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>QQ界面4</title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			#all{
+				width:100%;
+				height:100%;
+				background-color: #333333;
+				display: flex;
+				flex-direction: column;
+				position: fixed;
+			}
+			#one{
+				width:100%;
+				height:150px;
+				display: flex;
+			}
+			#one #oneleft{
+				width: 90%;
+				height: 100%;
+				display: flex;
+				font-size: 50px;
+				align-items: center;
+				color: white;
+			}
+			#one #oneleft img{
+				width: 100px;
+				height: 100px;
+				margin-left: 20px;
+			}
+			#one #oneright{
+				width: 10%;
+				height: 100%;
+				display: flex;
+				align-items: center;
+			}
+			#one #oneright img{
+				width: 60px;
+				height: 60px;
+			}
+			#two{
+				width:100%;
+				height:320px;
+				display: flex;
+			}
+			#two #two1{
+				width: 25%;
+				height: 100%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color: whitesmoke;
+			}
+			#two #two1 img{
+				width: 160px;
+				margin-top:-40px;
+				}
+			#two #two2{
+				width: 65%;
+				height: 100%;
+			}
+			#two #two2 span{
+				font-size: 70px;
+				color: white;
+			}
+			#two #two2 img{
+				width: 55px;
+				height: 55px;
+			}
+			#two #two2 #two22{
+				margin-top: 20px;
+			}
+			#two #two2 #two22 span{
+				font-size: 50px;
+				margin-top: 15px;
+			}
+			#two #two3{
+				width: 10%;
+				height: 100%;
+			}
+			#two #two3 img{
+				width: 70px;
+				height:70px;
+				margin-top: 20px;
+				margin-left:10px;
+			}
+			#three{
+				width:100%;
+				flex: 1;
+			}
+			#three div{
+				width: 100%;
+				height: 130px;
+				
+			}
+			#three img{
+				width: 80px;
+				height: 100px;
+				margin-left: 50px;}
+			#three span{
+				font-size: 50px;
+				color: whitesmoke;
+				margin-left: 20px;
+				position: relative;
+				top:-30px;
+				}
+			#three a{
+				color: whitesmoke;
+				font-size: 70px;
+				position: relative;
+				top:-30px;
+				left: 540px;
+			}
+			#three #three3 a{
+				position: relative;
+				top:-30px;
+				left: 440px;
+			}
+			#three #three7 a{
+				position: relative;
+				top:-30px;
+				left: 490px;
+			}
+			#four{
+				width:100%;
+				height:250px;
+				display: flex;
+			}
+			#four div{
+				display: flex;
+				justify-content: center;
+				flex-direction: column;
+				align-items: center;
+				margin-left: 20px;
+			}
+			#four img{
+				width: 100px;
+				height: 100px;
+				margin-top: 50px;
+			}
+			#four span{
+				font-size: 45px;
+				color: whitesmoke;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="all">
+			<div id="one">
+				<div id="oneleft">
+					<img src="img/打卡补签.svg" />
+					<span>打卡</span>
+				</div>
+				<div id="oneright">
+					<a href="主界面.html"><img src="img/错%20(1).svg" /></a>
+				</div>
+			</div>
+			<div id="two">
+				<div id="two1">
+					<img src="img/国旗-圆形.svg" />
+				</div>
+				<div id="two2">
+					<span>☞pretty</span>
+					<div id="two21">
+						<img src="img/太阳.svg" />
+						<img src="img/太阳.svg" />
+						<img src="img/太阳.svg" />
+						<img src="img/月亮.svg" />
+						<img src="img/月亮.svg" />
+						<img src="img/月亮.svg" />
+					</div>
+					<div id="two22">
+						<img src="img/编辑.svg"/>
+						<span>slow to go fast!</span>
+					</div>
+				</div>
+				<div id="two3">
+					<img src="img/二维码%20(1).svg" />
+				</div>
+			</div>
+			<div id="three">
+				<div id="three1">
+					<img src="img/会员%20(1).svg" />
+					<span>开通会员</span>
+					<a>&gt;</a>
+				</div>
+				<div id="three2">
+					<img src="img/我的钱包.svg" />
+					<span>我的钱包</span>
+					<a>&gt;</a>
+				</div>
+				<div id="three3">
+					<img src="img/个性装扮.svg" />
+					<span>我的个性装扮</span>
+					<a>&gt;</a>
+				</div>
+				<div id="three4">
+					<img src="img/我的收藏.svg" />
+					<span>我的收藏</span>
+					<a>&gt;</a>
+				</div>
+				<div id="three5">
+					<img src="img/相册.svg" />
+					<span>我的相册</span>
+					<a>&gt;</a>
+				</div>
+				<div id="three6">
+					<img src="img/文件.svg" />
+					<span>我的文件</span>
+					<a>&gt;</a>
+				</div>
+				<div id="three7">
+					<img src="img/流量统计.svg" />
+					<span>免流量特权</span>
+					<a>&gt;</a>
+				</div>
+			</div>
+			<div id="four">
+				<div>
+					<img src="img/1个.svg" />
+					<span>设置</span>
+				</div>
+				<div>
+					<img src="img/2个.svg" />
+					<span>夜间</span>
+				</div>
+				<div>
+					<img src="img/3个.svg" />
+					<span>1316天</span>
+				</div>
+				<div>
+					<img src="img/4个.svg" />
+					<span>临汾</span>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>
